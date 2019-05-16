@@ -13,7 +13,28 @@ console.log(job);
 job = 'Engineer';
 console.log(job);
 
-var 3years = 3; //error
-var % rate = 10;  //error
-var John/Smith = 'John and Smith';  // error
-var function = 23;  //error
+// var 3years = 3; //error
+// var % rate = 10;  //error
+// var John/Smith = 'John and Smith';  // error
+// var function = 23;  //error
+
+
+
+
+/*
+type coercion
+*/
+
+var firstName = 'John';
+var age = 28;
+
+console.log(firstName + ' ' + age);
+
+
+/*
+Variable mutation
+*/
+
+age = 'twenty eight';
+
+alert(firstName + ' ' + age);
