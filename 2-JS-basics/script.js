@@ -38,3 +38,34 @@ Variable mutation
 age = 'twenty eight';
 
 alert(firstName + ' ' + age);
+
+
+/*
+Basic operators
+*/
+
+var now, ageJohn, ageSmith, older, bornJohn, bornSmith;
+now = 2018;
+ageJohn = 28;
+ageSmith = 33;
+
+bornJohn = now - ageJohn;
+bornSmith = now - ageSmith;
+
+console.log(bornJohn);
+console.log(now + 2);
+console.log(now * 10);
+console.log(now / 10);
+
+
+older = ageJohn < ageSmith;
+console.log(older);
+
+
+/*
+typeof
+*/
+
+var x = 5;
+console.log(typeof x);
+console.log(typeof (x));
