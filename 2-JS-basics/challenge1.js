@@ -3,8 +3,8 @@ var heightJohn = prompt("Enter the height of John in m");
 var weightMark = prompt("Enter the weight of Mark in kg");
 var heightMark = prompt("Enter the height of Mark in m");
 
-var BMIJohn = weightJohn / (heightJohn ^ 2);
-var BMIMark = weightMark / (heightMark ^ 2);
+var BMIJohn = weightJohn / (heightJohn * heightJohn);
+var BMIMark = weightMark / (heightMark * heightMark);
 
 console.log(BMIJohn, BMIMark);
 
